@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 minimum-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Raleway&display=swap" rel="stylesheet" />
+
+    <title>DG Dev | Debopam Gupta</title>
+  </head>
+  <body>
+    <header class="header-nav">
+      <nav>
+        <ul class="nav-links">
+          <!-- #place should match element with id `place` to jump to specific part -->
+          <li><a href="/">DG</a></li>
+          <li><a href="#profile_home">Home</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#projects">Projects</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="profile" id="profile_home">
+        <div class="profile-image">
+          <img src="/pfp.jpeg" alt="Profile image Debopam Gupta" />
+        </div>
+        <p class="welcome-text">Hi! I'm Debopam <span>👋</span></p>
+      </section>
+
+      <section class="bio">
+        <div class="bio__left">
+          <p>Building things <span class="text-accent-gradient">for the web</span> that aims to make people's lives better</p>
+        </div>
+        <div class="bio__right">
+          <p>Currently as a student in Computer Science, I'm eager to learn and apply my knowledge for the better.</p>
+        </div>
+      </section>
+
+      <section class="links" id="contact">
+        <header>find me on the internet</header>
+        <div class="links-wrapper">
+          <div class="logo-flex"><img src="/logos/logo-github.svg" alt="Go to GitHub" /><a href="" class="social-link">GitHub</a></div>
+          <div class="logo-flex"><img src="/logos/logo-linkedin.svg" alt="Go to LinkedIn" /><a href="" class="social-link">LinkedIn</a></div>
+          <div class="logo-flex"><img src="/logos/logo-mail.svg" alt="Go to Email" /><a href="" class="social-link">Email</a></div>
+          <div class="logo-flex"><img src="/logos/logo-youtube.svg" alt="Go to YouTube" /><a href="" class="social-link">YouTube</a></div>
+          <div class="logo-flex"><img src="/logos/logo-instagram.svg" alt="Go to Instagram" /><a href="" class="social-link">Instagram</a></div>
+          <div class="logo-flex"><img src="/logos/logo-twitch.svg" alt="Go to Twitch" /><a href="" class="social-link">Twitch</a></div>
+          <div class="logo-flex"><img src="/logos/logo-twitter.svg" alt="Go to Twitter" /><a href="" class="social-link">Twitter</a></div>
+          <div class="logo-flex"><img src="/logos/logo-discord.svg" alt="Go to Discord" /><a href="" class="social-link">Discord</a></div>
+        </div>
+      </section>
+
+      <section class="projects" id="projects">
+        <header>projects</header>
+
+        <div class="projects__wrapper">
+          <div class="projects__project">
+            <h3 class="project__heading">github-status</h3>
+            <p class="project__description">A simple Github status page made with serverless functions.</p>
+            <div class="project__links">
+              <a href="https://ghstatus.vercel.app/"><img src="/logos/link.svg" alt="deployed site" /></a>
+              <a href="https://github.com/w3dg/github-status"><img src="/logos/logo-github.svg" alt="code on github" /></a>
+            </div>
+          </div>
+          <div class="projects__project">
+            <h3 class="project__heading">github-profile-search</h3>
+            <p class="project__description">Searches Github by username and shows top information.</p>
+            <div class="project__links">
+              <a href="https://github-profile-search.vercel.app/"><img src="/logos/link.svg" alt="deployed site" /></a>
+              <a href="https://github.com/w3dg/github-profile-search"><img src="/logos/logo-github.svg" alt="code on github" /></a>
+            </div>
+          </div>
+          <div class="projects__project">
+            <h3 class="project__heading">linkcl</h3>
+            <p class="project__description">A CLI tool to clean up your links of the various tracking parameters.</p>
+            <div class="project__links">
+              <a href="https://www.npmjs.com/package/linkcl"><img src="/logos/link.svg" alt="deployed site" /></a>
+              <a href="https://github.com/w3dg/linkcl"><img src="/logos/logo-github.svg" alt="code on github" /></a>
+            </div>
+          </div>
+          <div class="projects__project">
+            <h3 class="project__heading">http-status-code-lookup</h3>
+            <p class="project__description">A CLI tool to quickly look up what a http status code means.</p>
+            <div class="project__links">
+              <a href="https://github.com/w3dg/http-status-code-lookup"><img src="/logos/link.svg" alt="deployed site" /></a>
+              <a href="https://github.com/w3dg/http-status-code-lookup"><img src="/logos/logo-github.svg" alt="code on github" /></a>
+            </div>
+          </div>
+        </div>
+
+        <p class="projects__see-more">See more on my GitHub.</p>
+      </section>
+    </main>
+
+    <footer>
+      <p>made with &lt;3 and coffee</p>
+      <hr />
+      <p>All rights reserved.</p>
+      <p>&copy; <span id="copyright-year">2023</span> DG Software and Media Inc.</p>
+    </footer>
+
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
